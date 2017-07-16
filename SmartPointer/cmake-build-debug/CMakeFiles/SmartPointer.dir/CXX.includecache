@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yura/CLionProjects/Test/SmartPointer/main.cpp
+iostream
+-
+smart_ptr.h
+/home/yura/CLionProjects/Test/SmartPointer/smart_ptr.h
+
+/home/yura/CLionProjects/Test/SmartPointer/smart_ptr.h
+atomic
+-
+mutex
+-
+shared_mutex
+-
+
